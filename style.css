@@ -1,0 +1,72 @@
+/* Γενικές ρυθμίσεις */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9f9f9;
+    background: url('images/login.jpg') no-repeat center center;
+    background-size: 1200px 750px;
+    background-attachment: fixed;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    color: #003366;
+    background-color: white;
+    border: 5px solid #003366;
+    border-radius: 5px;
+
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    background-color: #003366;
+    color: white;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
